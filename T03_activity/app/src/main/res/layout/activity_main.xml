@@ -10,7 +10,9 @@
     android:background="#f00"
     tools:context="com.example.a.t03_activity.MainActivity">
 
-    <TextView
+    <Button
+        android:onClick="onFinishButtonClick"
+        android:id="@+id/btnMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
